@@ -5,13 +5,17 @@ public class SavingsAccount extends CheckingAccount {
 	
 public static void main(String[] args) {
 	
+	// if i create an object with parent class then we are getting the only parent class properties 
+	CheckingAccount obj1 = new CheckingAccount(); 
+	obj1.accountActivity();
+	
+
+	 // Create a object child class than we are getting both class properties 
 	SavingsAccount obj = new SavingsAccount();
 	obj.accountActivity();
 	obj.savingActivity();
 	
-	
 }
-	
 	
 	public  void savingActivity() {
 		//System.out.println(CheckingAccount.accountName);
