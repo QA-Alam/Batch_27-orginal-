@@ -26,5 +26,5 @@ public static void main(String[] args) {
 		System.out.println(CheckingAccount.accountName+ " total saving account balance$ "+ CheckingAccount.total);
 	}
 	
-	
+	// https://github.com/QA-Alam/DST-Automation.git
 }
